@@ -1,0 +1,12 @@
+# SSH keys (never commit these!)
+id_rsa
+id_rsa.pub
+
+# Terraform state files (they contain sensitive info)
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+# Ignore logs, temporary files
+*.log
+*.tfvars
